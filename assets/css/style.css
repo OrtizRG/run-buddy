@@ -21,7 +21,9 @@ header h1 {
   font-size: 36px;
   color: #fce138;
   margin: 0;
-  display: inline;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 header a {
   text-decoration: none;
@@ -29,8 +31,7 @@ header a {
 }
 
 header nav {
-  float: right;
-  margin: 7px 0;
+   margin: 7px 0;
 }
 
 header nav ul li {
